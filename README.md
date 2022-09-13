@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img  src="https://github.com/joselainejrs/doacao_roupa_PDI/blob/main/web/app/assets/img/logoBar.png" alt="Imagem">
+  <img  src="" alt="Imagem">
 </p>
 
 <h4 align="center">
