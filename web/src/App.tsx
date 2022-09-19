@@ -1,3 +1,6 @@
+
+import { MagnifyingGlassPlus} from "phosphor-react";
+
 import './styles/main.css';
 
 import logoImg from './assets/logo.svg';
@@ -8,7 +11,8 @@ function App() {
    <img src={logoImg} alt="" />
 
    <h1 className="text-6xl text-white font-black mt-20">
-     Seu <span className="text-transparent bg-nlw-gradient bg-clip-text">duo</span> está aqui.
+     Seu <span className="text-transparent bg-nlw-gradient bg-clip-text">duo</span> 
+     está aqui.
    </h1>
 
    <div className="grid grid-cols-6 gap-6 mt-16">
@@ -71,7 +75,7 @@ function App() {
        </div>
 
        <button className="py-3 px-4 bg-violet-500 hover:bg-violet-600 text-white rounded flex items-center gap-3">
-         {/* <MagnifyingGlassPlus size={24} /> */}
+         <MagnifyingGlassPlus size={24} />
          Publicar anúncio
        </button>
      </div>
